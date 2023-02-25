@@ -1,3 +1,17 @@
 * {
-    font-family: "Fira Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+
+.hero{
+    background-image: url("../assets/hero/hero2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
