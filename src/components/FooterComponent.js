@@ -7,10 +7,9 @@ const FooterComponent = () => {
       <Container>
         <Row>
           <Col>
-            <h6 className="fw-bold text-light">programmercintasunnah.com</h6>
+            <h6 className="fw-bold text-light">at-tarmiz.tech</h6>
             <p className="text-center text-white-50">
-              &copy; Copyright by programmer cinta sunnah 2023, All Rght
-              Reserved
+              &copy; Copyright by PT at-Tarmiz Teknologi 2023, All Rght Reserved
             </p>
           </Col>
           <Col className="text-end">
