@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 
 const NavbarComponent = () => {
   // const [changeColor, setChangeColor] = useState(false);
@@ -19,8 +19,8 @@ const NavbarComponent = () => {
   // });
 
   return (
-    <div className="">
-      <Navbar bg="light" expand="lg">
+    <div className="hero">
+      <Navbar expand="lg">
         <Container>
           <Navbar.Brand href="#home" className="fw-bold fs-4">
             <img
@@ -49,6 +49,36 @@ const NavbarComponent = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+      <div className="hero min-vh-100 w-100" id="home">
+        <Container>
+          <div className="row mb-5 text-muted text-center mt-5">
+            <div className="col"></div>
+            <div className="col-md-5" data-aos="fade-up" data-aos-delay="200">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae, impedit.
+            </div>
+            <div className="col col-lg-2"></div>
+          </div>
+          <Row>
+            <Col
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-black text-start p-2 text-muted"
+            >
+              <em>"Lorem ipsum dolor sit amet consectetur."</em>
+            </Col>
+          </Row>
+          <Row>
+            <Col
+              data-aos="fade-up"
+              data-aos-delay="200"
+              className="text-black text-start p-2 text-muted"
+            >
+              <img id="image-home" />
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 };

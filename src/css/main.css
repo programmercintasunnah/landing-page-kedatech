@@ -30,7 +30,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .hero h1{
@@ -56,6 +56,11 @@
     height: 500px;
 }
 
+#image-home{
+    content: url("../assets/images/home.png");
+    height: 250px;
+}
+
 .pricing{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -76,16 +81,28 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
+
+    #image-home{
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 790px) {
     #image-about{
         height: 200px;
     }
+
+    #image-home{
+        height: 150px;
+    }
     
     .pricing{
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    .form{
+        padding-top: 30px;
     }
 }
 
@@ -94,13 +111,17 @@
         height: 100px;
     }
 
-    .contact{
-        padding-bottom: 50px;
+    .form{
+        padding-top: 30px;
     }
 
     .pricing{
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+
+    #image-home{
+        height: 100px;
     }
 }
 

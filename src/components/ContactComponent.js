@@ -43,7 +43,7 @@ const ContactComponent = () => {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col data-aos="fade-in" data-aos-delay="200">
+          <Col className="form" data-aos="fade-in" data-aos-delay="200">
             <h6 className="fw-bold mb-4" data-aos="fade-out">
               MAIL US YOUR MESSAGE
             </h6>
