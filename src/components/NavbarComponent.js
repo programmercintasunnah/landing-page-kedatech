@@ -25,7 +25,7 @@ const NavbarComponent = () => {
           <Navbar.Brand href="#home" className="fw-bold fs-4">
             <img
               alt=""
-              src="/icons/keda-tech.jpeg"
+              src="/icons/KeDa.png"
               width="30"
               height="30"
               className="d-inline-block align-top"
@@ -35,7 +35,7 @@ const NavbarComponent = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse className="text-center" id="basic-navbar-nav">
             <Nav className="ms-auto fw-bold text-black">
-              <Nav.Link className="mx-2" href="#home">
+              <Nav.Link className="mx-2" href="#about">
                 ABOUT
               </Nav.Link>
               <Nav.Link className="mx-2" href="#pricing">
