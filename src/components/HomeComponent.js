@@ -7,8 +7,10 @@ const HomeComponent = () => {
       <Container>
         <Row>
           <Col className="text-black text-center">
-            <h1 className="fs-1">Programmer Cinta Sunnah</h1>
-            <p className="text-black-50">
+            <h1 className="fs-1 animate__animated animate__fadeInUp">
+              Programmer Cinta Sunnah
+            </h1>
+            <p className="text-black-50 animate__animated animate__fadeInUp">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               dignissimos asperiores quam! Placeat tempora nobis, maiores optio
               tenetur laudantium et beatae hic praesentium. Aliquam quasi,
