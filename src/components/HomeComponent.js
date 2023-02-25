@@ -3,12 +3,12 @@ import { Col, Container, Row } from "react-bootstrap";
 
 const HomeComponent = () => {
   return (
-    <div className="hero min-vh-100 w-100">
+    <div className="hero min-vh-100 w-100" id="home">
       <Container>
         <Row>
-          <Col className="text-light text-center">
-            <h1>Programmer Cinta Sunnah</h1>
-            <p className="text-white-50">
+          <Col className="text-black text-center">
+            <h1 className="fs-1">Programmer Cinta Sunnah</h1>
+            <p className="text-black-50">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
               dignissimos asperiores quam! Placeat tempora nobis, maiores optio
               tenetur laudantium et beatae hic praesentium. Aliquam quasi,
