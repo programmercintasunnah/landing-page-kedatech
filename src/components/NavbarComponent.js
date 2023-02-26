@@ -22,7 +22,7 @@ const NavbarComponent = () => {
   return (
     <div className="hero">
       <Navbar
-        className={changeColor ? "fixed-top bg-light" : "fixed-top"}
+        className={changeColor ? "fixed-top color-active" : "fixed-top"}
         expand="lg"
       >
         <Container>
@@ -42,7 +42,7 @@ const NavbarComponent = () => {
             HOME
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse className="text-center" id="basic-navbar-nav">
+          <Navbar.Collapse className="text-center mb-2" id="basic-navbar-nav">
             <Nav className="ms-auto fw-bold text-black">
               <Nav.Link className="mx-2" href="#about">
                 ABOUT
@@ -55,7 +55,13 @@ const NavbarComponent = () => {
               </Nav.Link>
             </Nav>
             <Link to="/login">
-              <Button variant="outline-info">LOGIN</Button>
+              <Button
+                variant={
+                  changeColor ? "info text-light border" : "outline-info"
+                }
+              >
+                LOGIN
+              </Button>
             </Link>
           </Navbar.Collapse>
         </Container>
