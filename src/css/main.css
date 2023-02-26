@@ -72,6 +72,24 @@
     color: white;
 }
 
+.login{
+    background-image: url("../assets/hero/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+
+.form-login{
+    border-style: solid;
+    border-width: 1px;
+    height: min-content;
+    border-radius: 5px;
+    color: black;
+    background-color: aliceblue;
+    padding: 20px
+}
+
 @media screen and (max-width: 992px) {
     .about{
         padding-top: 100px;
