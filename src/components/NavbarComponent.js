@@ -26,7 +26,7 @@ const NavbarComponent = () => {
         expand="lg"
       >
         <Container>
-          <Navbar.Brand href="#home" className="fw-bold fs-4">
+          <Navbar.Brand href="#home" className="text-light fw-bold fs-4">
             <img
               alt=""
               src="/icons/KeDa.png"
@@ -57,32 +57,38 @@ const NavbarComponent = () => {
       </Navbar>
       <div className="hero min-vh-100 w-100" id="home">
         <Container>
-          <div className="row mb-5 text-muted text-center mt-5">
+          <div className="mt-5 row text-muted text-center">
             <div className="col"></div>
-            <div className="col-md-5" data-aos="fade-up" data-aos-delay="200">
+            <div
+              className="col-md-5 mt-5"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Recusandae, impedit.
             </div>
             <div className="col col-lg-2"></div>
           </div>
-          <Row>
-            <Col
-              data-aos="fade-up"
-              data-aos-delay="200"
-              className="text-black text-start p-2 text-muted"
-            >
-              <em>"Lorem ipsum dolor sit amet consectetur."</em>
-            </Col>
-          </Row>
-          <Row>
-            <Col
-              data-aos="fade-up"
-              data-aos-delay="200"
-              className="text-black text-start p-2 text-muted"
-            >
-              <img id="image-home" />
-            </Col>
-          </Row>
+          <div className="text-cover">
+            <Row>
+              <Col
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="text-black text-start p-2 text-muted"
+              >
+                <em>"Lorem ipsum dolor sit amet consectetur."</em>
+              </Col>
+            </Row>
+            <Row>
+              <Col
+                data-aos="fade-up"
+                data-aos-delay="200"
+                className="text-black text-start p-2 text-muted"
+              >
+                <img id="image-home" />
+              </Col>
+            </Row>
+          </div>
         </Container>
       </div>
     </div>
