@@ -3,25 +3,28 @@ import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
-  // const [changeColor, setChangeColor] = useState(false);
+  const [changeColor, setChangeColor] = useState(false);
 
-  // const changeBackgroundColor = () => {
-  //   if (window.screenY > 680) {
-  //     setChangeColor(true);
-  //   } else {
-  //     setChangeColor(false);
-  //   }
-  // };
+  const changeBackgroundColor = () => {
+    if (window.scrollY > 10) {
+      setChangeColor(true);
+    } else {
+      setChangeColor(false);
+    }
+  };
 
-  // useEffect(() => {
-  //   changeBackgroundColor();
+  useEffect(() => {
+    changeBackgroundColor();
 
-  //   window.addEventListener("scroll", changeBackgroundColor);
-  // });
+    window.addEventListener("scroll", changeBackgroundColor);
+  });
 
   return (
     <div className="hero">
-      <Navbar className="fixed-top" expand="lg">
+      <Navbar
+        className={changeColor ? "fixed-top bg-light" : "fixed-top"}
+        expand="lg"
+      >
         <Container>
           <Navbar.Brand href="#home" className="fw-bold fs-4">
             <img
