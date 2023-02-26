@@ -86,8 +86,22 @@
     height: min-content;
     border-radius: 5px;
     color: black;
-    background-color: aliceblue;
-    padding: 20px
+    background-color: rgb(173, 177, 181);
+    padding: 20px;
+    box-shadow: 5px 5px;
+    border-radius: 10%;
+}
+
+.login .sign-in:hover{
+    background-color: rgb(73, 101, 142);
+}
+
+.login a:link {
+    text-decoration: none;
+}
+
+.login a:link:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 992px) {

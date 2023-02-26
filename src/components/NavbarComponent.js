@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const NavbarComponent = () => {
   // const [changeColor, setChangeColor] = useState(false);
@@ -45,7 +46,9 @@ const NavbarComponent = () => {
                 CONTACT
               </Nav.Link>
             </Nav>
-            <Button variant="outline-info">LOGIN</Button>
+            <Link to="/login">
+              <Button variant="outline-info">LOGIN</Button>
+            </Link>
           </Navbar.Collapse>
         </Container>
       </Navbar>

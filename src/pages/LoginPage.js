@@ -1,11 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const LoginComponent = () => {
+const LoginPage = () => {
   return (
     <div className="login min-vh-100 d-flex align-items-center justify-content-center w-100">
-      <div className="form-login">
-        <h2>Login Form</h2>
-        <form action="" className="needs-validation" no-validate>
+      <div className="form-login text-center">
+        <h2 className="mb-4">Login Form</h2>
+        <form
+          action=""
+          className="needs-validation text-start mb-4"
+          no-validate
+        >
           <div className="form-group mb-2 was-validated">
             <label className="form-label" htmlFor="email">
               Email Address
@@ -36,13 +41,20 @@ const LoginComponent = () => {
               Remember me
             </label>
           </div>
-          <button type="submit" className="btn btn-success w-100 mt-2">
+          <button
+            type="submit"
+            className="sign-in btn btn-dark text-light w-100 mt-2"
+          >
             SIGN IN
           </button>
         </form>
+        <Link to="/">
+          <i className="fa fa-home mx-2 text-primary"></i>
+          Back to home
+        </Link>
       </div>
     </div>
   );
 };
 
-export default LoginComponent;
+export default LoginPage;

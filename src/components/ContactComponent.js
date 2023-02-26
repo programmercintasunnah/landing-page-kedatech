@@ -47,7 +47,7 @@ const ContactComponent = () => {
             <h6 className="fw-bold mb-4" data-aos="fade-out">
               MAIL US YOUR MESSAGE
             </h6>
-            <Form>
+            <Form action="#">
               <Form.Group className="mb-3" controlId="formBasicName">
                 <Form.Control type="text" placeholder="Enter name" />
               </Form.Group>
@@ -64,7 +64,7 @@ const ContactComponent = () => {
                   placeholder="Enter subject"
                 />
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button variant="primary" type="button">
                 Submit
               </Button>
             </Form>
