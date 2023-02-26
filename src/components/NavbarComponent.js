@@ -21,7 +21,7 @@ const NavbarComponent = () => {
 
   return (
     <div className="hero">
-      <Navbar expand="lg">
+      <Navbar className="fixed-top" expand="lg">
         <Container>
           <Navbar.Brand href="#home" className="fw-bold fs-4">
             <img

@@ -4,12 +4,16 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
   return (
     <div className="login min-vh-100 d-flex align-items-center justify-content-center w-100">
-      <div className="form-login text-center">
-        <h2 className="mb-4">Login Form</h2>
+      <div className="form-login text-center" data-aos="fade-in">
+        <h2 className="mb-4" data-aos="zoom-out" data-aos-delay="200">
+          Login Form
+        </h2>
         <form
           action=""
           className="needs-validation text-start mb-4"
           no-validate
+          data-aos="zoom-out"
+          data-aos-delay="400"
         >
           <div className="form-group mb-2 was-validated">
             <label className="form-label" htmlFor="email">
