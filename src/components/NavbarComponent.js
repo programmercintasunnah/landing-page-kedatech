@@ -26,10 +26,15 @@ const NavbarComponent = () => {
         expand="lg"
       >
         <Container>
-          <Navbar.Brand href="#home" className="text-light fw-bold fs-4">
+          <Navbar.Brand
+            href="#home"
+            className={
+              changeColor ? "text-dark fw-bold fs-4" : "text-light fw-bold fs-4"
+            }
+          >
             <img
               alt=""
-              src="/icons/KeDa.png"
+              src={changeColor ? "/icons/icon-black.png" : "/icons/icon.png"}
               width="30"
               height="30"
               className="d-inline-block align-top"
