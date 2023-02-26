@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const LoginPage = () => {
   return (
     <div className="login min-vh-100 d-flex align-items-center justify-content-center w-100">
-      <div className="form-login text-center" data-aos="fade-in">
-        <h2 className="mb-4" data-aos="zoom-out" data-aos-delay="200">
+      <div className="form-login text-center p-5" data-aos="fade-in">
+        <h2 className="mb-4 fw-bold" data-aos="zoom-out" data-aos-delay="200">
           Login Form
         </h2>
         <form

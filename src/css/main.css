@@ -85,10 +85,10 @@
     border-width: 1px;
     height: min-content;
     border-radius: 5px;
-    color: black;
-    background-color: rgb(173, 177, 181);
+    color: white;
+    background-color: rgb(10, 32, 53);
     padding: 20px;
-    box-shadow: 5px 5px;
+    box-shadow: 2px 2px rgb(161, 160, 160);
     border-radius: 10%;
 }
 
